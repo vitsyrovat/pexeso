@@ -20,7 +20,7 @@ const PictureToSelect = ({ fishSpecies, fishSet, setFishSet, setFishSetFull, fis
 
         if (currentFishSet.length === 8) {
             setFishSetFull(true);
-            fishSetToImageSet();
+            fishSetToImageSet(fishSet);
         }
     }
 

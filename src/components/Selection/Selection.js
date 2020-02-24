@@ -11,7 +11,6 @@ const Selection = ({ picturesAll, fishSet, setFishSet, setFishSetFull, fishSetTo
         setFishSetFull(true);
         let randomPick = makeRandomPick(picturesAll);
         fishSetToImageSet(randomPick);
-
     };
 
 
