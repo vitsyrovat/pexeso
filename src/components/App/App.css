@@ -1,0 +1,62 @@
+
+.App {
+  text-align: center;
+  background-color: #EEE;
+  
+  display: flex;
+  min-height: 333vh;
+  
+  display: absolute;
+  align-items: center;
+}
+
+.App-logo {
+  width: 30vmin;
+  pointer-events: none;
+}
+
+h1 {
+  position: absolute;
+  top: -20px;
+  left: 5%;
+  height: 90px;
+  width: 90%;
+  padding: 100px auto;
+  background-color: salmon;
+  color: white;
+  font-size: 58px;
+}
+
+/*
+.startGameButton {
+  position: absolute;
+  top: 150px;
+  left: 66%;
+  border-radius: 10px;
+  background-color: salmon;
+  
+}
+*/
+
+.startGameButton h2 {
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  color: black;
+  font-weight: 600;
+}
+
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+*/
